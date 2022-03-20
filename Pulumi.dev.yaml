@@ -1,0 +1,6 @@
+config:
+  aws-py-dynamic-resource:DB_PASSWORD:
+    secure: AAABAAIbnzXdTTCT/JxF6rVbq+cJgOYSCJs7aq0rmcOy4b39H6S5SZ13MA==
+  aws-py-dynamic-resource:DB_USER:
+    secure: AAABAKXIoLqlgtKE7t+VtsULyzzfEUfuooyT8wDHYuUlJ1cczQ==
+  aws:region: ap-northeast-2
