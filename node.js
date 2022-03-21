@@ -45,11 +45,10 @@ const {
  
 // db configuration
 const client = mariadb.createPool({
-  host     : 'iac-mariadb.curkl4crnvql.ap-northeast-2.rds.amazonaws.com',
+  host     : 'your host',
   port     : 3306,
   user     : 'admin',
-  password : 'IaC-Test!35',
-  //password : `{DB_PASSWORD}`,
+  password : `{DB_PASSWORD}`,
   database : 'adt',
   connectionLimit: 20
 });
